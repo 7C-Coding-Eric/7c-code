@@ -16,12 +16,8 @@
 
         var link = document.createElement('link');
         link.type = 'image/x-icon';
-        link.rel = 'shortcut-icon';
+        link.rel = 'shortcut icon';
         link.href = canvas.toDataURL("image/x-icon");
-        document.getElementsByTagName('head')[0].appendChild(link);
-        link.rel = 'icon';
-        document.getElementsByTagName('head')[0].appendChild(link);
-        link.rel = 'apple-touch-icon';
         document.getElementsByTagName('head')[0].appendChild(link);
     }
 </script>
