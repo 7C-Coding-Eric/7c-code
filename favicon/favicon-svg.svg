@@ -17,6 +17,6 @@
       }
     }
   </style>
-<image x="0" y="0" class="dark" href="http://7c-code.tk/favicon/icon-dark.png" width="100px" height="100px" ></image>
-<image x="0" y="0" class="light" href="http://7c-code.tk/favicon/icon-light.png" width="100px" height="100px" ></image>
+<image x="0" y="0" class="dark" href="favicon/icon-dark.png" width="100px" height="100px" ></image>
+<image x="0" y="0" class="light" href="favicon/icon-light.png" width="100px" height="100px" ></image>
 </svg>
