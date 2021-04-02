@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100px" height="100px">
+ <style>
+    @media (prefers-color-scheme: dark) {
+      .dark {
+        display:none;
+      }
+      .light {
+        display:true;
+      }
+    }
+    @media (prefers-color-scheme: light) {
+      .dark {
+        display:true;
+      }
+      .light {
+        display:none;
+      }
+    }
+  </style>
+<image x="0" y="0" class="dark" href="icon-dark.png" width="100px" height="100px" ></image>
+<image x="0" y="0" class="light" href="icon-light.png" width="100px" height="100px" ></image>
+</svg>
