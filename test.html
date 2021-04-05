@@ -1,10 +1,10 @@
 <link rel="icon" href="favicon/icon-light.png" id="light-scheme-icon">
 <link rel="icon" href="b.png" id="dark-scheme-icon">
-<style>
+<script>
 matcher = window.matchMedia('(prefers-color-scheme: dark)');
 matcher.addListener(onUpdate);
 onUpdate();
-</style>
+</script>
 
 <script>
   lightSchemeIcon = document.querySelector('link#light-scheme-icon');
