@@ -1,0 +1,22 @@
+<link rel="icon" href="favicon/icon-light.png" id="light-scheme-icon">
+<link rel="icon" href="b.png" id="dark-scheme-icon">
+<style>
+matcher = window.matchMedia('(prefers-color-scheme: dark)');
+matcher.addListener(onUpdate);
+onUpdate();
+</style>
+
+<script>
+  lightSchemeIcon = document.querySelector('link#light-scheme-icon');
+darkSchemeIcon = document.querySelector('link#dark-scheme-icon');
+
+function onUpdate() {
+  if (matcher.matches) {
+    lightSchemeIcon.remove();
+    document.head.append(darkSchemeIcon);
+  } else {
+    document.head.append(lightSchemeIcon);
+    darkSchemeIcon.remove();
+  }
+}
+</script>
